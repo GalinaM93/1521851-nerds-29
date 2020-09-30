@@ -1,0 +1,244 @@
+/* Variables */
+
+:root {
+    --basic-white: #888888;
+    --basic-grey: #eeeeee;
+    --basic-black: #000000;
+    --red: #FB565A;
+    --green: #00CA74;
+    --yellow: #EFC849;
+    --grey-lighter: #ffffff;
+}
+:body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "ROBOTO", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-dark);
+    text-transform: uppercase;
+    background-color: var(--basic-grey);
+    background-image: url("../img/bg.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+ 
+:a {
+    text-decoration: none;
+ }
+      
+: img {
+    max-width: 100%;
+    height: auto;
+}
+/* Main navigation */
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--basic-white);
+    background-color: transparent;
+  }
+  
+  .main-navigation-wrapper {
+    background-color: var(--basic-black);
+  }
+  .site-navigation {
+    list-style: none;
+  }
+  .site-navigation-current a:not([href]) {
+    background-color: var(--basic-grey);
+  }
+  
+  /* User navigation */
+  
+  
+  .site-navigation a,
+  .user-navigation a {
+    color: var(--basic-black);
+  }
+  
+  .site-navigation a:hover,
+  .site-navigation a:focus,
+  .user-navigation a:hover,
+  .user-navigation a:focus {
+    background-color: var(--basic-grey);
+  }
+  .slogan{
+    color: var(--basic-black);
+    background-color: var(--basic-grey);
+    background-image: url("../img/pattern-light.jpg");
+    background-position: left, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+  .slogan h1{
+    font-size: 55px;
+    line-height: 55px;
+}
+  .button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-black);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--red);
+  border: none;
+  }
+  .button:hover,
+  .button:focus,
+  .button:active {
+    background-color: var(--red);
+  }
+  
+  .button.disabled,
+  .button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-black);
+  }
+   .offers{
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+    background-image: url("../img/pattern-light.jpg");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+   }
+  .offers-list{
+    list-style: none;
+  }
+  .button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-black);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--red);
+    border: none;
+    }
+    .button:hover,
+    .button:focus,
+    .button:active {
+      background-color: var(--red);
+    }
+    
+    .button.disabled,
+    .button:disabled {
+      cursor: default;
+      opacity: 0.5;
+      background-color: var(--basic-black);
+    }
+    .button {
+      font: inherit;
+      text-align: center;
+      color: var(--basic-black);
+      vertical-align: middle;
+      text-transform: uppercase;
+      background-color: var(--green);
+      border: none;
+      }
+      .button:hover,
+      .button:focus,
+      .button:active {
+        background-color: var(--green);
+      }
+      
+      .button.disabled,
+      .button:disabled {
+        cursor: default;
+        opacity: 0.5;
+        background-color: var(--basic-black);
+      }
+      .button {
+        font: inherit;
+        text-align: center;
+        color: var(--basic-black);
+        vertical-align: middle;
+        text-transform: uppercase;
+        background-color: var(--yellow);
+        border: none;
+        }
+        .button:hover,
+        .button:focus,
+        .button:active {
+          background-color: var(--yellow);
+        }
+        
+        .button.disabled,
+        .button:disabled {
+          cursor: default;
+          opacity: 0.5;
+          background-color: var(--basic-black);
+        }
+        .services {
+          color: var(--basic-black);
+          background-color: var(--basic-white);
+          background-image: url("../img/pattern-light.jpg");
+          background-position: left, 0 0;
+          background-repeat: no-repeat, repeat;
+        }
+        .services h2{
+          font-size: 45px;
+          line-height: 45px;
+        }
+        .garantees{
+          color: var(--basic-black);
+          background-color: var(--basic-white);
+          background-image: url("../img/pattern-light.jpg");
+          background-position: right, 0 0;
+          background-repeat: no-repeat, repeat;
+        }
+        .main-footer {
+          color: var(--basic-black);
+          background-color: var(--basic-extra-dark);
+          background-image: url("../img/pattern-dark.jpg");
+          background-position: 0 0;
+          background-repeat: repeat;
+        }
+        .footer-social {
+          text-align: center;
+        }
+        
+        .footer-social ul {
+          list-style: none;
+        }
+        
+        .footer-social h2 {
+          font-size: 14px;
+        }
+        .social-button {
+          color: inherit;
+        }
+        .social-button:hover,
+        .social-button:focus {
+          background-color: var(--grey-lighter);
+        }
+        .modal {
+          color: var(--basic-black);
+          background-color: var(--basic-white);
+          background-image: url("../img/pattern-light.jpg");
+          background-position: 0 0;
+          background-repeat: repeat;
+          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+        }
+        .button {
+          font: inherit;
+          text-align: center;
+          color: var(--basic-black);
+          vertical-align: middle;
+          text-transform: uppercase;
+          background-color: var(--red);
+          border: none;
+          }
+          .button:hover,
+          .button:focus,
+          .button:active {
+            background-color: var(--red);
+          }
+          
+          .button.disabled,
+          .button:disabled {
+            cursor: default;
+            opacity: 0.5;
+            background-color: var(--basic-black);
