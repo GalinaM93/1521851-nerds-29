@@ -33,9 +33,17 @@
     max-width: 100%;
     height: auto;
 }
+.inner-page .main-header {
+  background-color: var(--basic-black);
+}
+h1{
+  font-size: 55px;
+  line-height: 55px; 
+}
+
 /* Main navigation */
 
-.main-navigation {
+  .main-navigation {
     font-size: 16px;
     line-height: 20px;
     color: var(--basic-white);
