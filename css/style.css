@@ -1,8 +1,8 @@
 /* Variables */
 
 :root {
-    --basic-white: #888888;
-    --basic-grey: #eeeeee;
+    --basic-white: #ffffff;
+    --basic-grey: #888888;
     --basic-black: #000000;
     --red: #FB565A;
     --green: #00CA74;
@@ -10,7 +10,7 @@
     --grey-lighter: #ffffff;
     --grey-grey: #4d4d4d
 }
-:body {
+body {
     min-width: 960px;
     margin: 0;
     padding: 0;
@@ -20,104 +20,76 @@
     font-weight: 700;
     color: var(--basic-dark);
     text-transform: uppercase;
-    background-color: var(--basic-grey);
+    background-color: var(--basic-white);
     background-image: url("../img/bg.jpg");
     background-position: top center;
     background-repeat: no-repeat;
 }
  
-:a {
+a {
     text-decoration: none;
- }
+}
       
-: img {
+img {
     max-width: 100%;
     height: auto;
 }
 .inner-page .main-header {
-  background-color: var(--basic-black);
+    background-color: var(--basic-black);
 }
 h1{
-  font-size: 55px;
-  line-height: 55px; 
+    font-size: 55px;
+    line-height: 55px; 
 }
 
 /* Main navigation */
 
-  .main-navigation {
+.main-navigation {
     font-size: 16px;
     line-height: 30px;
     color: var(--basic-black);
     background-color: #eeeeee;
-  }
+}
   
-  .main-navigation-wrapper {
+.main-navigation-wrapper {
     background-color: var(--basic-black);
-  }
-  .site-navigation {
+}
+.site-navigation {
     list-style: none;
-  }
-  .site-navigation-current a:not([href]) {
+}
+.site-navigation-current a:not([href]) {
     background-color: var(--basic-grey);
-  }
+}
   
   /* User navigation */
   
   
-  .site-navigation a,
-  .user-navigation a {
+.site-navigation a,
+.user-navigation a {
     color: var(--basic-black);
-  }
+}
   
-  .site-navigation a:hover,
-  .site-navigation a:focus,
-  .user-navigation a:hover,
-  .user-navigation a:focus {
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
     background-color: var(--basic-grey);
-  }
-  .slogan{
+}
+
+.slogan{
     color: var(--basic-black);
     background-color: var(--basic-grey);
     background-image: url("../img/pattern-light.jpg");
     background-position: left, 0 0;
     background-repeat: no-repeat, repeat;
 }
-  .slogan h1{
+
+.slogan h1{
     font-size: 55px;
     line-height: 55px;
 }
-  .button {
-  font: inherit;
-  text-align: center;
-  color: var(--basic-black);
-  vertical-align: middle;
-  text-transform: uppercase;
-  background-color: var(--red);
-  border: none;
-  }
-  .button:hover,
-  .button:focus,
-  .button:active {
-    background-color: var(--red);
-  }
   
-  .button.disabled,
-  .button:disabled {
-    cursor: default;
-    opacity: 0.5;
-    background-color: var(--basic-black);
-  }
-   .offers{
-    color: var(--basic-black);
-    background-color: var(--basic-white);
-    background-image: url("../img/pattern-light.jpg");
-    background-position: center, 0 0;
-    background-repeat: no-repeat, repeat;
-   }
-  .offers-list{
-    list-style: none;
-  }
-  .button {
+.button {
     font: inherit;
     text-align: center;
     color: var(--basic-black);
@@ -125,220 +97,263 @@ h1{
     text-transform: uppercase;
     background-color: var(--red);
     border: none;
-    }
-    .button:hover,
-    .button:focus,
-    .button:active {
-      background-color: var(--red);
-    }
+}
+  
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: var(--red);
+}
+  
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-black);
+}
+.offers {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+    background-image: url("../img/pattern-light.jpg");
+    background-position: center, 0 0;
+    background-repeat: no-repeat, repeat;
+}
+  
+.offers-list {
+    list-style: none;
+}
+  
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-black);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--red);
+    border: none;
+}
+  
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: var(--red);
+}
     
-    .button.disabled,
-    .button:disabled {
-      cursor: default;
-      opacity: 0.5;
-      background-color: var(--basic-black);
-    }
-    .button {
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-black);
+}
+  
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-black);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--green);
+    border: none;
+}
+  
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: var(--green);
+}
+      
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-black);
+}
+  
+.button {
+    font: inherit;
+    text-align: center;
+    color: var(--basic-black);
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: var(--yellow);
+    border: none;
+}
+  
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: var(--yellow);
+}
+        
+.button.disabled,
+.button:disabled {
+    cursor: default;
+    opacity: 0.5;
+    background-color: var(--basic-black);
+}
+  
+.inner-page {
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+    background-image: url("../img/pattern-light.jpg");
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+    /* Breadcrumbs */
+.breadcrumbs {
+    list-style: none;
+}
+        
+.breadcrumbs a {
+    color: var(--basic-black);
+}
+        
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    text-decoration: underline;
+}
+        
+.breadcrumbs-current {
+    color: var(--basic-dark);
+}
+    /* Filters */
+
+.filter legend {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.filter ul {
+    list-style: none;
+    line-height: 19px;
+}
+
+.filter-input-checkbox:hover + label,
+.filter-input-checkbox:focus + label {
+    color: var(--special);
+}
+.catalog-list {
+    list-style: none;
+}
+        
+.catalog-item {
+    background-color: var(--grey-grey);
+    box-shadow: 77 77 77,1px rgba(77,77,77,1)
+}
+        
+.catalog-item a {
+    color: var(--basic-black);
+}
+.catalog-item h2 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.catalog-category {
+    text-transform: none;
+}
+        
+.catalog-item-price b {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    background-color: var(--red);
+}
+        
+.catalog-item-price .button {
+    line-height: 50px;
+    color: var(--red);
+}
+        /* Pagination */
+
+.pagination-list {
+     list-style: none;
+}
+.pagination-item a {
+      color: var(--basic-black);
+      background-color: var(--#eeeeee);
+}
+        
+  .pagination-item a:hover,
+  .pagination-item a:focus,
+  .pagination-item a:active {
+      background-color: var(--special);
+}
+  .pagination-item-current a,
+  .pagination-item-current a:hover,
+  .pagination-item-current a:focus,
+  .pagination-item-current a:active {
+      color: var(--basic-black);
+      background-color: var(--basic-white);
+}
+  .services {
+      color: var(--basic-black);
+      background-color: var(--basic-white);
+      background-image: url("../img/pattern-light.jpg");
+      background-position: left, 0 0;
+      background-repeat: no-repeat, repeat;
+}
+  .services h2{
+      font-size: 45px;
+      line-height: 45px;
+}
+  .guarantees{
+      color: var(--basic-black);
+      background-color: var(--basic-white);
+      background-image: url("../img/pattern-light.jpg");
+      background-position: right, 0 0;
+      background-repeat: no-repeat, repeat;
+}
+  .main-footer {
+      color: var(--basic-black);
+      background-color: var(--basic-extra-dark);
+      background-image: url("../img/pattern-dark.jpg");
+      background-position: 0 0;
+      background-repeat: repeat;
+}
+  .footer-social {
+      text-align: center;
+}
+        
+  .footer-social ul {
+      list-style: none;
+}
+        
+  .footer-social h2 {
+      font-size: 14px;
+}
+  .social-button {
+      color: inherit;
+}
+  .social-button:hover,
+  .social-button:focus {
+      background-color: var(--grey-lighter);
+}
+  .modal {
+      color: var(--basic-black);
+      background-color: var(--basic-white);
+      background-image: url("../img/pattern-light.jpg");
+      background-position: 0 0;
+      background-repeat: repeat;
+      box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+  .button {
       font: inherit;
       text-align: center;
       color: var(--basic-black);
       vertical-align: middle;
       text-transform: uppercase;
-      background-color: var(--green);
+      background-color: var(--red);
       border: none;
-      }
-      .button:hover,
-      .button:focus,
-      .button:active {
-        background-color: var(--green);
-      }
-      
-      .button.disabled,
-      .button:disabled {
-        cursor: default;
-        opacity: 0.5;
-        background-color: var(--basic-black);
-      }
-      .button {
-        font: inherit;
-        text-align: center;
-        color: var(--basic-black);
-        vertical-align: middle;
-        text-transform: uppercase;
-        background-color: var(--yellow);
-        border: none;
-        }
-        .button:hover,
-        .button:focus,
-        .button:active {
-          background-color: var(--yellow);
-        }
-        
-        .button.disabled,
-        .button:disabled {
-          cursor: default;
-          opacity: 0.5;
-          background-color: var(--basic-black);
-        }
-        .inner-page {
-          color: var(--basic-black);
-          background-color: var(--basic-white);
-          background-image: url("../img/pattern-light.jpg");
-          background-position: 0 0;
-          background-repeat: repeat;
-        }
-         /* Breadcrumbs */
-        .breadcrumbs {
-          list-style: none;
-        }
-        
-        .breadcrumbs a {
-          color: var(--basic-black);
-        }
-        
-        .breadcrumbs a:hover,
-        .breadcrumbs a:focus {
-          text-decoration: underline;
-        }
-        
-        .breadcrumbs-current {
-          color: var(--basic-dark);
-        }
-        /* Filters */
-
-        .filter legend {
-          font-size: 18px;
-          line-height: 30px;
-        }
-
-        .filter ul {
-          list-style: none;
-          line-height: 19px;
-        }
-
-        .filter-input-checkbox:hover + label,
-        .filter-input-checkbox:focus + label {
-          color: var(--special);
-        }
-        .catalog-list {
-          list-style: none;
-        }
-        
-        .catalog-item {
-          background-color: var(--grey-grey);
-          box-shadow: 77 77 77,1px rgba(77,77,77,1)
-        }
-        
-        .catalog-item a {
-          color: var(--basic-black);
-        }
-        .catalog-item h2 {
-          font-size: 18px;
-          line-height: 30px;
-        }
-        .catalog-category {
-          text-transform: none;
-        }
-        .catalog-item-price b {
-          font-size: 16px;
-          line-height: 18px;
-          text-align: center;
-          background-color: var(--red);
-        }
-        .catalog-item-price .button {
-          line-height: 50px;
-          color: var(--red);
-        }
-        /* Pagination */
-
-        .pagination-list {
-          list-style: none;
-        }
-        .pagination-item a {
-          color: var(--basic-black);
-          background-color: var(--#eeeeee);
-        }
-        
-        .pagination-item a:hover,
-        .pagination-item a:focus,
-        .pagination-item a:active {
-          background-color: var(--special);
-        }
-        .pagination-item-current a,
-        .pagination-item-current a:hover,
-        .pagination-item-current a:focus,
-        .pagination-item-current a:active {
-          color: var(--basic-black);
-          background-color: var(--basic-white);
-        }
-        .services {
-          color: var(--basic-black);
-          background-color: var(--basic-white);
-          background-image: url("../img/pattern-light.jpg");
-          background-position: left, 0 0;
-          background-repeat: no-repeat, repeat;
-        }
-        .services h2{
-          font-size: 45px;
-          line-height: 45px;
-        }
-        .garantees{
-          color: var(--basic-black);
-          background-color: var(--basic-white);
-          background-image: url("../img/pattern-light.jpg");
-          background-position: right, 0 0;
-          background-repeat: no-repeat, repeat;
-        }
-        .main-footer {
-          color: var(--basic-black);
-          background-color: var(--basic-extra-dark);
-          background-image: url("../img/pattern-dark.jpg");
-          background-position: 0 0;
-          background-repeat: repeat;
-        }
-        .footer-social {
-          text-align: center;
-        }
-        
-        .footer-social ul {
-          list-style: none;
-        }
-        
-        .footer-social h2 {
-          font-size: 14px;
-        }
-        .social-button {
-          color: inherit;
-        }
-        .social-button:hover,
-        .social-button:focus {
-          background-color: var(--grey-lighter);
-        }
-        .modal {
-          color: var(--basic-black);
-          background-color: var(--basic-white);
-          background-image: url("../img/pattern-light.jpg");
-          background-position: 0 0;
-          background-repeat: repeat;
-          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-        }
-        .button {
-          font: inherit;
-          text-align: center;
-          color: var(--basic-black);
-          vertical-align: middle;
-          text-transform: uppercase;
-          background-color: var(--red);
-          border: none;
-          }
-          .button:hover,
-          .button:focus,
-          .button:active {
-            background-color: var(--red);
-          }
+}
+  .button:hover,
+  .button:focus,
+  .button:active {
+      background-color: var(--red);
+}
           
-          .button.disabled,
-          .button:disabled {
-            cursor: default;
-            opacity: 0.5;
-            background-color: var(--basic-black);
+  .button.disabled,
+  .button:disabled {
+      cursor: default;
+      opacity: 0.5;
+      background-color: var(--basic-black);
